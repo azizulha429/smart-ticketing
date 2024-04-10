@@ -56,10 +56,10 @@
           class="text-[#1DD100]">
           RA-Paribahan</span></h2>
       <p class="text-center text-sm lg:text-2xl">
-        Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow
-        for a streamlined .
+        Our main aim is to serve passengers. We have numerous AC and non-AC buses from all over the country.
       </p>
-      <a href="#seat-sele" class="btn btn-wide bg-[#1DD100] border-0 text-[#030712] hover:bg-[#4b7944] uppercase">Buy Tickets</a>
+      <a href="#seat-sele" class="btn btn-wide bg-[#1DD100] border-0 text-[#030712] hover:bg-[#4b7944] uppercase">Buy
+        Tickets</a>
     </div>
     <div class="-translate-y-10 md:-translate-y-20 hidden lg:flex gap-4 justify-center px-4">
       <div
@@ -146,8 +146,7 @@
           <div class="text-center space-y-4 py-4">
             <h2 class="text-[#030712] text-4xl font-extrabold">RA Paribahan</h2>
             <p class="px-4 lg:px-72 text-[rgba(3,7,18,0.60)]">
-              Yes, you can run unit tests and view the results directly within the app. The integrated testing features
-              allow for a streamlined .
+              And this transport is very good transport throughout the country. Our service quality is unmatched.
             </p>
           </div>
           <!-- Greenline Paribahan SECTION -->
@@ -325,7 +324,19 @@
                     </tr>
                   </tfoot>
                 </table>
-                <label class="input input-bordered flex items-center gap-2">
+                <div id="discount" class="hidden">
+                  <table class="table">
+                    <tfoot>
+                      <tr>
+                        <th>Discount Price</th>
+                        <th></th>
+                        <th></th>
+                        <th>BDT <span id="discount-amount">0</span></th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+                <label id="apply-input" class="input input-bordered flex items-center gap-2">
                   <input id="input-field" type="text" class="grow" placeholder="Have any coupon?" />
                   <input onclick="grandTotal()" id="apply-btn" disabled
                     class="bg-[#1DD100] px-4 py-1 rounded-md disabled:bg-[#84a180]" type="button" value="Apply">
@@ -334,7 +345,7 @@
                 <table class="table">
                   <tfoot>
                     <tr>
-                      <th>Total Price</th>
+                      <th>Grand Price</th>
                       <th></th>
                       <th></th>
                       <th></th>
@@ -367,7 +378,8 @@
                   </div>
                   <div class="form-control mt-6">
                     <!-- <button onclick="my_modal_5.showModal()" class="btn bg-[#1DD100] hover:bg-[#5d9c53]">Next</button> -->
-                    <input onclick="my_modal_5.showModal()" id="next-btn" class="btn bg-[#1DD100] disabled:bg-[#5d9c53]" disabled type="button" value="Next">
+                    <input onclick="my_modal_5.showModal()" id="next-btn" class="btn bg-[#1DD100] disabled:bg-[#5d9c53]"
+                      disabled type="button" value="Next">
                   </div>
                   <div class="flex justify-between text-sm text-[rgba(3,7,18,0.60)]">
                     <p class="underline">Terms and Conditions</p>

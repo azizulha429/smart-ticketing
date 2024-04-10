@@ -25,11 +25,7 @@ for (const btn of allBtn) {
     selectContainer.appendChild(tr)
     e.target.style.backgroundColor = '#1DD100'
     const selectSeatItem = document.getElementById('select-seat-total').innerText;
-    const fiftyCoupon = document.getElementById('fifty').innerText;
-    const twentyCoupon = document.getElementById('twenty').innerText;
-    const couponCode = document.getElementById('input-field').value;
     if (selectSeatItem == 3) {
-      
       document.getElementById("apply-btn").removeAttribute('disabled')
       document.getElementById("apply-btn").style.backgroundColor = '#1DD100'
     }
